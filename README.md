@@ -122,12 +122,8 @@ opensky-radar-pipeline/
 │   ├── bronze_setup.sql           # RAW schema + RAW_DATA table, S3 stage
 │   ├── silver_setup.sql           # STAGED schema + cleaning/dedup transformation
 │   └── gold_setup.sql             # FINAL schema + business aggregation tables
-├── dashboard/
-│   └── app.py                     # Streamlit dashboard on the Gold layer
-├── architecture_diagram.png
-├── requirements.txt
-├── requirements-airflow.txt
-└── .env                            # Local credentials (never committed)
+├── dashboard.py     # Streamlit dashboard on the Gold layer
+├── requirements.txt       
 ```
 
 ## Setup
